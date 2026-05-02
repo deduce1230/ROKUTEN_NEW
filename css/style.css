@@ -239,6 +239,14 @@ header > .inner {
 	padding-bottom: 5px;
 	font-size: 16px;
 }
+.h2-summary {
+	position: relative;
+	margin: 0;
+	padding-bottom: 5px;
+	font-size: 16px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
 
 
 .header_nav {
@@ -806,6 +814,10 @@ footer {
 	footer {
 		width: 100%;
 	}
+
+	.onlyPC{
+		display:none;
+	}
 }
 
 /*================================================
@@ -832,6 +844,11 @@ footer {
 	.summary {
 		margin-right: 10px;
 		font-size: 10px;
+	}
+	.h2-summary {
+		font-size: 10px;
+		margin-right: 30px;
+		margin-left: 30px;
 	}
 
 	.header_tel .phonenumber {
@@ -1054,4 +1071,8 @@ footer {
 	.header_left{
 		display: none;
 	}
+	.onlyPC{
+		display:none;
+	}
+
 }
