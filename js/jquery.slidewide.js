@@ -22,7 +22,7 @@ $(function($){
 			touchDistance : '80',
 			autoSlide     : true,
 			repeat        : true,
-			interval      : 3000,
+			interval      : 8000,
 			duration      : 500,
 			easing        : 'swing',
 			imgHoverStop  : true,

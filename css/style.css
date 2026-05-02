@@ -100,7 +100,7 @@ h3 {
 	padding: 3px 5px;
 	color: #fff;
 	font-size: 16px;
-	background: #434343;
+	background: #2d8083;
 }
 
 h4 {
@@ -237,7 +237,7 @@ header > .inner {
 	position: relative;
 	margin: 0;
 	padding-bottom: 5px;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 
@@ -509,7 +509,7 @@ header > .inner {
 	list-style: none;
 }
 .submenu li a:before {
-	content: "\0025a0";
+	content: none;
 	color: #000;
 }
 .submenu li a {
@@ -620,6 +620,10 @@ footer {
 	background: url(../images/check.png) 0 5px no-repeat;
 }
 
+.info-box{
+	margin-left:20px;
+}
+
 .info dt {
 	border-bottom: none;
 }
@@ -649,6 +653,31 @@ footer {
 	width: 100%;
 	margin-bottom: 2.5%;
 }
+
+.album{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.topics th{
+	width: 70px;
+}
+.tenyaku{
+	border: 3px double gray;
+}
+.tenyaku th{
+	border: 1px solid gray;
+	background: rgb(153, 230, 163);
+}
+.tenyaku td{
+	border: 1px solid gray;
+	background: #eee;
+}
+.tenyaku tr:nth-child(odd) td {
+	border: 1px solid gray;
+	background: #fff;
+}
+
 
 /*================================================
  *  スライドショー
@@ -801,7 +830,7 @@ footer {
 	}
 
 	.summary {
-		margin-right: 40px;
+		margin-right: 10px;
 		font-size: 10px;
 	}
 
@@ -1020,5 +1049,9 @@ footer {
 	}
 	.col_two_one li:nth-child(2n+1) {
 		clear: both;
+	}
+
+	.header_left{
+		display: none;
 	}
 }
