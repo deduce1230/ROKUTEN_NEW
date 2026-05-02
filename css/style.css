@@ -237,7 +237,7 @@ header > .inner {
 	position: relative;
 	margin: 0;
 	padding-bottom: 5px;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 
@@ -307,12 +307,15 @@ header > .inner {
 	background: none;
 }
 
+.header_left{
+	float: left;
+}
 /*================================================
  *  グローバルナビゲーション
  ================================================*/
 @media print, screen and (min-width:768px) {
 	nav {
-		background: #4A4949;
+		background: #5e9125;
 		z-index: 3;
 	}
 
@@ -334,7 +337,7 @@ header > .inner {
 		display: block;
 		margin: 0;
 		padding: 16px 0;
-		background: #4A4949;
+		background: #5e9125;
 		color: #fff;
 		font-size: 14px;
 		font-weight: bold;
@@ -535,9 +538,6 @@ header > .inner {
 	opacity: 0.8;
 	filter: alpha(opacity=80);
 	-ms-filter: "alpha( opacity=80 )";
-}
-.bnr img {
-	width: 100%;
 }
 
 /*================================================
