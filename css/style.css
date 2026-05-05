@@ -670,20 +670,25 @@ footer {
 .topics th{
 	width: 70px;
 }
+
 .tenyaku{
-	border: 3px double gray;
+	border: 3px double;	
+}
+.tenyaku tr:nth-child(even) {
+  background: #cfddc6;
 }
 .tenyaku th{
-	border: 1px solid gray;
+  border: 1px solid rgb(20, 20, 20);
 	background: rgb(153, 230, 163);
 }
-.tenyaku td{
-	border: 1px solid gray;
-	background: #eee;
+.tenyaku td {
+  border: 1px solid rgb(20, 20, 20);
 }
-.tenyaku tr:nth-child(odd) td {
-	border: 1px solid gray;
-	background: #fff;
+.tenyaku .last {
+  border-bottom: solid 1px #ccc;
+}
+.tenyaku .sp{
+	display:none;
 }
 
 
@@ -820,6 +825,7 @@ footer {
 	}
 }
 
+
 /*================================================
  *  スマートフォン向けデザイン
  ================================================*/
@@ -849,6 +855,7 @@ footer {
 		font-size: 10px;
 		margin-right: 30px;
 		margin-left: 30px;
+		text-align: left;
 	}
 
 	.header_tel .phonenumber {
@@ -1073,6 +1080,27 @@ footer {
 	}
 	.onlyPC{
 		display:none;
+	}
+
+	.album img{
+		width:120px;
+	}
+
+  .tenyaku .thead {
+    display: none;
+  }
+  .tenyaku td {
+	border: none;
+    display: inline-block;
+  }
+  .tenyaku span {
+    font-weight: bold;
+  }
+  .tenyaku .last {
+    border-bottom: none;
+  }
+	.tenyaku .sp{
+		display:block;
 	}
 
 }
