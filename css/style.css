@@ -691,6 +691,13 @@ footer {
 	display:none;
 }
 
+.onlyPC{
+	display:block;
+}
+
+.notPC{
+	display:none;
+}
 
 /*================================================
  *  スライドショー
@@ -822,6 +829,10 @@ footer {
 
 	.onlyPC{
 		display:none;
+	}
+
+	.notPC{
+		display:block;
 	}
 }
 
@@ -1080,6 +1091,9 @@ footer {
 	}
 	.onlyPC{
 		display:none;
+	}
+	.notPC{
+		display:block;
 	}
 
 	.album img{
