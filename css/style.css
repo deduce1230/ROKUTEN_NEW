@@ -800,9 +800,10 @@ footer {
   overflow: hidden;
   white-space: nowrap;
   width: 100%; /* 表示させたい幅 */
-  height:25px;
+  height:45px;
   background-color: hwb(83 82% 9%);
-  color: #2a8064;
+  color: #a12d2de3;
+  font-size:30px;
 }
 
 /* アニメーション設定 */
